@@ -1,0 +1,22 @@
+div{
+    margin: 0px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 940px;
+    border: 2px solid black; /* Solid or Dashed or Dotted or Double or Groove or Ridge or Outset/Inset */
+    border-radius: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: darkgray;
+}
+h1{
+    font-size: 100px;
+}
+#a{
+    display:block,
+    
+}

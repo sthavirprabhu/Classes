@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <form oninput="c.value=parseInt(a.value)+parseInt(b.value)">
+        <fieldset>
+            <legend>Form 2</legend>
+            <input type="number" name="a" value="0"/> + <input type="number" name="b" value="0"/> = <output name="c" for="a b"></output>
+        </fieldset>
+    </form>
+    <br><br>
+    <form oninput="Average.value=(parseInt(a.value)+parseInt(b.value)+parseInt(c.value)+parseInt(d.value)+parseInt(e.value))/5">
+        <fieldset>
+            <legend>Form 2</legend>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter Your Name"/>
+            <BR><BR>
+            <label>Enter Marks</label>
+            <br><br>
+            <select>
+                <option>Select Subject</option>
+                <option>Math</option>
+                <option>Science</option>
+                <option>English</option>
+                <option>SST</option>
+                <option>French</option>
+            </select>
+            <input type="number" id="m1" name="a"/>
+            <br><br>
+            <select>
+                <option>Select Subject</option>
+                <option>Math</option>
+                <option>Science</option>
+                <option>English</option>
+                <option>SST</option>
+                <option>French</option>
+            </select>
+            <input type="number" id="m2" name="b"/>
+            <br><br>
+            <select>
+                <option>Select Subject</option>
+                <option>Math</option>
+                <option>Science</option>
+                <option>English</option>
+                <option>SST</option>
+                <option>French</option>
+            </select>
+            <input type="number" id="m3" name="c"/>
+            <br><br>
+            <select>
+                <option>Select Subject</option>
+                <option>Math</option>
+                <option>Science</option>
+                <option>English</option>
+                <option>SST</option>
+                <option>French</option>
+            </select>
+            <input type="number" id="m4" name="d"/>
+            <br><br>
+            <select>
+                <option>Select Subject</option>
+                <option>Math</option>
+                <option>Science</option>
+                <option>English</option>
+                <option>SST</option>
+                <option>French</option>
+            </select>
+            <input type="number" id="m5" name="e"/>
+            <br></br>
+            Average: <output name="Average" for="a b c d e"></output>
+        </fieldset>
+    </form>
+</body>
+</html>

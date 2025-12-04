@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"]{
+            border: 2px solid crimson
+        }
+        input[type="number"]{
+            border: 5px solid darkblue;
+        }
+        ul>li{
+            color: brown;
+            list-style-type: circle
+        }
+        ul>ol>li{
+            color:blue
+        }
+        h1~p{
+            color:darkolivegreen
+        }
+        a:hover{
+            color:gainsboro
+        }
+        li:nth-child(2){
+            background-color: green;
+        }
+        div:not(#b){
+            border: 2px solid forestgreen
+        }
+        #c::before{
+            content: "Star 😀 ";
+            color:darksalmon
+        }
+        #d::after{
+            content: " Star 😀";
+            color:blueviolet
+        }
+        #e::first-letter{
+            font-size: 200%;
+            color:darkblue
+        }
+        #f::first-line{
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+<body>
+    <p>Paragraph That Will Not Be Highlighted</p>
+    <h1>Advance Selector</h1>
+    <h2>Attribute Selector</h2>
+    <input type="text" />
+    <input type="number" />
+    <h2>Child Selector</h2>
+    <ul>
+        <li>Home</li>
+        <li>School</li>
+        <li>About</li>
+        <ol>
+            <li>Big</li>
+            <li>Bigger</li>
+            <li>Biggest</li>
+        </ol>
+    </ul>
+    <h2>Sibling Selector</h2>
+    <h1>Title</h1>
+    <p>Paragraph Number 1</p>
+    <p>Paragraph Number 2</p>
+    <hr />
+    <h1>PSEUDO Classes</h1>
+    <h2>Hover</h2>
+    <a href="#">Hover over me!</a>
+    <h2>Nth Child</h2>
+    <ul>
+        <li>Home</li>
+        <li>School</li>
+        <li>About</li>
+        <ol>
+            <li>Big</li>
+            <li>Bigger</li>
+            <li>Biggest</li>
+        </ol>
+    </ul>
+    <h2>Not Selector</h2>
+    <div id="a">Hello World, This is div Tag Number 1</div>
+    <div id="b">Hello World, This is div Tag Number 2</div>
+    <hr/>
+    <h1>PSEUDO Elements</h1>
+    <h2>Before</h2>
+    <p id="c">Content 1</p>
+    <h2>After</h2>
+    <p id="d">Content 2</p>
+    <h2>First Letter</h2>
+    <p id="e"> Will is a Paragraph</p>
+    <h2>First Line</h2>
+    <p id="f">Content 4</p>
+</body>
+</html>

@@ -1,0 +1,19 @@
+h1{
+    font-size: 50px;
+    text-align: start;
+    color:brown;
+    font-family: Roboto, sans-serif;
+}
+h3{
+    font-size: 27px;
+    text-align: start;
+    color:#c9a676;
+    font-family: Roboto, sans-serif;
+}
+p{
+    text-align: left;
+    font-size: large;
+}
+img{
+    align-items: center;
+}

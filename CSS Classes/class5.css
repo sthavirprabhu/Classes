@@ -1,0 +1,33 @@
+p{
+    background-color: aquamarine;
+    width: 220px;
+    height: 50px;
+    margin: 200px 0px 100px 140px;
+
+}
+#a{
+    color: black;
+    background-color: white;
+}
+#padding{
+    background-color: burlywood;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+#border{
+    margin: 0px;
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+    border: 5px dashed black; /* Solid or Dashed or Dotted or Double or Groove or Ridge or Outset/Inset */
+    border-radius: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#float{
+    float: right; /* Just to Position Right or Left */
+    margin: 0px;
+    padding: 0px
+}
